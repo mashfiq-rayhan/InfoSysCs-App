@@ -1,0 +1,34 @@
+{
+	"name": "infosyscs-frontend-frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
+		"@mui/icons-material": "^5.11.9",
+		"@mui/material": "^5.11.9",
+		"@next/font": "^13.1.6",
+		"@reduxjs/toolkit": "^1.9.3",
+		"cookie-cutter": "^0.2.0",
+		"cookies-next": "^2.1.1",
+		"dayjs": "^1.11.7",
+		"next": "13.1.6",
+		"next-redux-wrapper": "^8.1.0",
+		"openai": "^3.1.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-redux": "^8.0.5",
+		"redux-persist": "^6.0.0",
+		"universal-cookie": "^4.0.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ShaNaim/infosyscs-frontend.git"
+	}
+}
