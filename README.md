@@ -1,3 +1,7 @@
+InfoSysCS - Qualitative Data Analysis Assistant
+
+> InfoSysCS is a web-based platform designed to help researchers, development program evaluators, and emergency responders analyze qualitative data efficiently. The app leverages AI-powered thematic analysis to quickly identify patterns, themes, and trends in uploaded interview or discussion scripts. Users can securely upload files, generate detailed reports, and provide feedback on results. The platform also includes user authentication, an admin dashboard, and clear terms and conditions to ensure responsible use. InfoSysCS aims to make qualitative data analysis accessible, fast, and insightful for organizations and individuals alike.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
