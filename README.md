@@ -2,6 +2,37 @@ InfoSysCS - Qualitative Data Analysis Assistant
 
 > InfoSysCS is a web-based platform designed to help researchers, development program evaluators, and emergency responders analyze qualitative data efficiently. The app leverages AI-powered thematic analysis to quickly identify patterns, themes, and trends in uploaded interview or discussion scripts. Users can securely upload files, generate detailed reports, and provide feedback on results. The platform also includes user authentication, an admin dashboard, and clear terms and conditions to ensure responsible use. InfoSysCS aims to make qualitative data analysis accessible, fast, and insightful for organizations and individuals alike.
 
+# InfoSysCS - Qualitative Data Analysis Assistant
+
+InfoSysCS is a web-based Qualitative Data Analysis Assistant designed to help researchers, development program evaluators, and emergency responders analyze qualitative data efficiently. Powered by AI, the platform enables users to upload interview or discussion scripts and receive a comprehensive Thematic Analysis report within minutes.
+
+## Key Features
+
+- **AI-Powered Thematic Analysis:** Automatically identifies patterns, themes, and trends in uploaded qualitative data.
+- **User-Friendly Interface:** Simple upload process and clear report presentation.
+- **Personal Dashboard:** Users can view personal information and manage their reports.
+- **Feedback System:** Users can provide feedback on generated reports.
+- **Admin Panel:** Admins can view user lists and manage reports.
+- **Secure Authentication:** Registration and login with secure session management.
+
+## How It Works
+
+1. **Upload Data:** Users upload their qualitative data files (PDF/DOCX).
+2. **AI Analysis:** The system processes the data and generates a thematic analysis report.
+3. **View & Download:** Users can view, download, and provide feedback on their reports.
+4. **Admin Tools:** Admins can access detailed report and user management features.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) for the frontend
+- [Material-UI](https://mui.com/) for UI components
+- Redux for state management
+- Custom backend API for data processing and authentication
+
+## About
+
+InfoSysCS is committed to making qualitative data analysis accessible and efficient for all. For more information, see the
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
