@@ -2,7 +2,7 @@ import { selectAuthState } from "@/store/authSlice";
 import { useSelector } from "react-redux";
 
 import Footer from "./Footer";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 
 export default function Layout({ children }) {
 	const authState = useSelector(selectAuthState);
