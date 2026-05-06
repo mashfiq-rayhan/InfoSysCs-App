@@ -65,16 +65,16 @@ export default function Auth({ login = false, isPage = false }) {
 			{showPage ? (
 				<Box
 					sx={{
-						width: "100%",
-						minHeight: "40vh",
-						backgroundColor: "#fff",
-						px: { xs: 2, md: 4, lg: 8 },
-						py: 4,
-						marginTop: "10px",
-						borderRadius: "18px",
-						boxShadow: `10px 10px 16px -1px ${isLogin ? "#118aa044" : "#0f833244"}`,
-					}}
+					width: "100%",
+					maxWidth: 720,
+					margin: "auto",
+					px: { xs: 2, md: 4, lg: 0 },
+					py: 4,
+					mt: 6,
+					mb: 6,
+				}}
 				>
+					<Box className={styles.authPanel}>
 					<Stack direction="column" justifyContent="space-between" alignItems="center" spacing={1}>
 						<Stack
 							direction="column"
@@ -138,6 +138,7 @@ export default function Auth({ login = false, isPage = false }) {
 						{/* </Link> */}
 					</Stack>
 					<NotifyAlert open={hasError} setOpen={setHasError} type="error" message={errorMessage} />
+				</Box>
 				</Box>
 			) : (
 				<Loading />

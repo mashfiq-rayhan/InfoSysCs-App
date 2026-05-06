@@ -96,7 +96,7 @@ export default function TestFooter() {
 									<div>
 										<span> {companyInfo.address.address} </span>
 										<div>
-											{companyInfo.address.area} , {companyInfo.address.city}
+											{companyInfo.address.area}{companyInfo.address.city}
 										</div>
 									</div>
 								</IconLinks>
