@@ -1,3 +1,5 @@
+🌐 LIVE: https://infosys-cs.vercel.app/
+
 # InfoSysCS: AI-Powered Qualitative Data Analysis Assistant 🤖
 
 InfoSysCS is a modern web application designed to streamline qualitative data analysis for researchers, evaluators, and responders. Leveraging the power of OpenAI's Davinci model, InfoSysCS automates the extraction of themes and patterns from interview scripts and discussion transcripts, delivering comprehensive thematic reports in minutes instead of days.
